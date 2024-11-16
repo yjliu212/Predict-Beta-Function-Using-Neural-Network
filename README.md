@@ -30,3 +30,4 @@ After training with dataset 3, we can see that the DNN model is capable of predi
 
 **References**
 
+NADER C. DUTTA, RAN BACHRACH AND TAPAN MUKERJI, 2022, QUANTITATIVE ANALYSIS OF  GEOPRESSURE  FOR GEOSCIENTISTS  AND ENGINEERS.
