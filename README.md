@@ -28,3 +28,5 @@ Through this experiment, we can see that the DNN model from training 1 and 2 wil
 
 After training with dataset 3, we can see that the DNN model is capable of predicting Beta functions for new input features. Now the DNN model is well generalized to make predictions, no longer under-predicting.
 
+**References**
+
