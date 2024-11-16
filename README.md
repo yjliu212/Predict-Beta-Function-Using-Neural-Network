@@ -25,7 +25,7 @@ We have three senarios of training datasets:
 
 Through this experiment, we can see that the DNN model from training 1 and 2 will under-predict the target Beta function, no matter how many epochs we train the DNN model. This means that the DNN model is not generalized enough, because the training dataset does not contain enough variance to cover all the feature space. 
 
-After training with dataset 3, we can see that the DNN model is capable of predicting Beta functions for new input features. Now the DNN model is well generalized to make predictions, no longer under-predicting.
+After training with dataset 3, we can see that the DNN model is capable of predicting Beta functions for the new input data. Now the DNN model is well generalized to make predictions, and no longer under-predicting.
 
 **References**
 
