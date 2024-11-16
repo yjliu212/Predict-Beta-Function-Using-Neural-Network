@@ -1,13 +1,16 @@
 # Predict-Beta-Function-Using-Deep-Neural-Network
 
+## Introduction
 Beta function is a diagenesis function modeled using Arrhenius equation. It represents the diagenesis of smectite rich shale to illite rich shale as a function of depth with elevated burial age and temperature. As described in Dutta et al., (2022), chapter 3.4, Chemical Diagenesis as a Geopressure Mechanism, Beta function is a function of burial age and temperature as shown in the picture below.
 ![image](https://github.com/user-attachments/assets/53517f01-49eb-41a4-b470-d714f6d9a922)
 
+## Deep Neural Network
 Here, we are using Deep Neural Network (DNN) to model the Beta function.
 
-The features selected for the training dataset are Depth_BML (depth below mud line), Temperature, Age, and the target is Beta
+The training datasets contains three features: Depth_BML (depth below mud line), Temperature, Age, and one target, which is the calculated Beta values.
 <img width="319" alt="image" src="https://github.com/user-attachments/assets/7041b3ce-1092-4b74-ba37-e48d85f7acc9">
 
+** Training datasets **
 We have three senarios of training datasets:
 
 *  Training dataset 1: A single Beta function with a fixed thermal gradient and burial rate
