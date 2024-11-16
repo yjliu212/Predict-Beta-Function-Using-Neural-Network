@@ -13,9 +13,6 @@ The training datasets contains three features: Depth_BML (depth below mud line),
 
 <img width="319" alt="image" src="https://github.com/user-attachments/assets/7041b3ce-1092-4b74-ba37-e48d85f7acc9">
 
-
-**Training datasets:**
-
 We have three senarios of training datasets:
 
 *  Training dataset 1: A single Beta function with a fixed thermal gradient and burial rate
