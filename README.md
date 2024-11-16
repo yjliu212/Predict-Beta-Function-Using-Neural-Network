@@ -6,7 +6,7 @@ Beta function is a diagenesis function modeled using Arrhenius equation. It repr
 Here, we are using Deep Neural Network (DNN) to model the Beta function.
 
 The features selected for the training dataset are Depth_BML (depth below mud line), Temperature, Age, and the target is Beta
-![image](https://github.com/user-attachments/assets/5afb6149-5a1a-4003-9349-e5177cc53d7e)
+<img width="319" alt="image" src="https://github.com/user-attachments/assets/7041b3ce-1092-4b74-ba37-e48d85f7acc9">
 
 Training dataset 1: A single Beta function with a fixed thermal gradient and burial rate
 Training dataset 2: 100 Beta functions with Temperature from 100 randomly sampled thermal gradients and a fixed burial rate
