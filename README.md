@@ -10,11 +10,9 @@ The features selected for the training dataset are Depth_BML (depth below mud li
 
 We have three senarios of training datasets:
 
-  Training dataset 1: A single Beta function with a fixed thermal gradient and burial rate
-  
-  Training dataset 2: 100 Beta functions with Temperature from 100 randomly sampled thermal gradients and a fixed burial rate
-  
-  Training dataset 3: 100 Beta functions with Temperature and Age from 10 randomly sampled thermal gradients and 10 randomly sampled burial rate
+*  Training dataset 1: A single Beta function with a fixed thermal gradient and burial rate
+*  Training dataset 2: 100 Beta functions with Temperature from 100 randomly sampled thermal gradients and a fixed burial rate 
+*  Training dataset 3: 100 Beta functions with Temperature and Age from 10 randomly sampled thermal gradients and 10 randomly sampled burial rate
 
 Through this experiment, we can see that the DNN model from training 1 and 2 will under-predict the target Beta function, no matter how many epochs we traing the DNN model. This means that the DNN model is not generalized enough, because the training dataset does not contain enough variance to cover all the feature space. 
 
