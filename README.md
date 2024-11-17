@@ -2,7 +2,7 @@
 
 ## [Notebook:](Assignment_2b_Beta_Function_Prediction.ipynb)
 
-In this Python Jupyter Notebook, we train a Deep Neural Network (DNN) to compute the diagenesis Beta function, a critical component in pore pressure prediction, particularly in high-temperature, high-pressure environments. The DNN model consists of three fully connected layers: the input layer with 64 nodes, a hidden layer with 16 nodes, and an output layer with a single node representing the Beta value.
+In this Python Jupyter Notebook, we train a Deep Neural Network (DNN) to compute the diagenesis Beta function, a critical component in pore pressure prediction, particularly in high-temperature, high-pressure environments. The DNN model consists of three fully connected layers: the input layer with 64 nodes, a hidden layer with 16 nodes, and an output layer with a single node representing the Beta function.
 
 ## Introduction:
 
