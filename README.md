@@ -34,7 +34,7 @@ We have three senarios of training datasets:
 
 ![image](https://github.com/user-attachments/assets/7063f062-0a49-402d-b0f7-debb78ee0e96)
 
-Training result show good match based on 30% of the training dataset
+Training result show good match based on 30% of the training dataset as test
 
 ![image](https://github.com/user-attachments/assets/f2e853be-e8ee-4ba6-b938-c575ebf62a06)
 
