@@ -28,6 +28,24 @@ We have three senarios of training datasets:
 *  Training dataset 2: 100 Beta functions with Temperature from 100 randomly sampled thermal gradients and a fixed burial rate 
 *  Training dataset 3: 100 Beta functions with Temperature and Age from 10 randomly sampled thermal gradients and 10 randomly sampled burial rate
 
+## Results:
+
+* Results using training dataset 1:
+![image](https://github.com/user-attachments/assets/d1885994-2e0f-4d9d-ae1f-564913cb3391)
+Correlation Heatmap of three input features and target Beta
+
+![image](https://github.com/user-attachments/assets/7063f062-0a49-402d-b0f7-debb78ee0e96)
+Training result show good match based on 30% of the training dataset
+
+![image](https://github.com/user-attachments/assets/f2e853be-e8ee-4ba6-b938-c575ebf62a06)
+But the trained DNN model fails to predict a new dataset using a different thermal gradient
+
+* Results using training dataset 2:
+
+
+  
+* Results using training dataset 3:
+  
 ## Discussion:
 
 Through this experiment, we can see that the DNN model from training dataset 1 and 2 always under-predict the target Beta function. No matter how many epochs we train the DNN model using dataset 1 and 2, the DNN model can only predict the testing data well but not able to predict a new input dataset with a different thermal gradient or burial rate. This means that the DNN model is not generalized enough, due to the training dataset does not contain enough feature variance. 
