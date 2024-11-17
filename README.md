@@ -40,12 +40,22 @@ Training result show good match based on 30% of the training dataset
 
 But the trained DNN model fails to predict a new dataset using a different thermal gradient
 
-*Results using training dataset 2:**
+**Results using training dataset 2:**
 
+![image](https://github.com/user-attachments/assets/7fba88e9-c955-4506-bac3-61b10f6b9255)
 
+Now the DNN model is able to predict the change due to different thermal gradient
+
+![image](https://github.com/user-attachments/assets/227d1161-b631-4c20-880b-b440e641ce2c)
+
+But it still fails to make correct prediction for a new dataset with a different burial rate
   
-*Results using training dataset 3:**
-  
+**Results using training dataset 3:**
+
+![image](https://github.com/user-attachments/assets/3fd08d6c-e5dc-45c2-9380-8eff03865051)
+
+Only after training with dataset 3 achieved good prediction in the DNN model
+
 ## Discussion:
 
 Through this experiment, we can see that the DNN model from training dataset 1 and 2 always under-predict the target Beta function. No matter how many epochs we train the DNN model using dataset 1 and 2, the DNN model can only predict the testing data well but not able to predict a new input dataset with a different thermal gradient or burial rate. This means that the DNN model is not generalized enough, due to the training dataset does not contain enough feature variance. 
