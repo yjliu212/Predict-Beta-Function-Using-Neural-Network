@@ -21,12 +21,12 @@ We have three senarios of training datasets:
 *  Training dataset 2: 100 Beta functions with Temperature from 100 randomly sampled thermal gradients and a fixed burial rate 
 *  Training dataset 3: 100 Beta functions with Temperature and Age from 10 randomly sampled thermal gradients and 10 randomly sampled burial rate
 
-**Discussion:**
+## Discussion:
 
 Through this experiment, we can see that the DNN model from training 1 and 2 will under-predict the target Beta function, no matter how many epochs we train the DNN model. This means that the DNN model is not generalized enough, because the training dataset does not contain enough variance to cover all the feature space. 
 
 After training with dataset 3, we can see that the DNN model is capable of predicting Beta functions for the new input data. Now the DNN model is well generalized to make predictions, and no longer under-predicting.
 
-**References**
+## Reference:
 
 NADER C. DUTTA, RAN BACHRACH AND TAPAN MUKERJI, 2022, QUANTITATIVE ANALYSIS OF  GEOPRESSURE  FOR GEOSCIENTISTS  AND ENGINEERS.
