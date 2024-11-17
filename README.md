@@ -62,6 +62,8 @@ Here are the heatmap and pairplot of the training dataset 3:
 
 ![image](https://github.com/user-attachments/assets/e7575fec-c62f-4fe8-a85d-c2e575176840)
 
+Intrested reader can generate heatmap and pairplot using training data set 1 and 2 and see the difference.
+
 ## Discussion:
 
 Through this experiment, we can see that the DNN model from training dataset 1 and 2 always under-predict the target Beta function. No matter how many epochs we train the DNN model using dataset 1 and 2, the DNN model can only predict the testing data well but not able to predict a new input dataset with a different thermal gradient or burial rate. This means that the DNN model is not generalized enough, due to the training dataset does not contain enough feature variance. 
