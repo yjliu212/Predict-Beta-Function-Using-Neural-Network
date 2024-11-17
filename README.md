@@ -60,6 +60,8 @@ Here are the heatmap and pairplot of the training dataset 3:
 
 ![image](https://github.com/user-attachments/assets/c2ce5a81-363a-4c9c-a67e-3705cacbbdcf)
 
+![image](https://github.com/user-attachments/assets/e7575fec-c62f-4fe8-a85d-c2e575176840)
+
 
 ## Discussion:
 
