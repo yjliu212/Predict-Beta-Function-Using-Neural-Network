@@ -19,15 +19,15 @@ The dataset is splited into 70% as training part and 30% as testing part.
 
 We have three senarios of training datasets:
 
-*  Training dataset 1: A single Beta function with a fixed thermal gradient and burial rate
+*  Training dataset 1: A single Beta function with a fixed thermal gradient and fixed burial rate
 *  Training dataset 2: 100 Beta functions with Temperature from 100 randomly sampled thermal gradients and a fixed burial rate 
 *  Training dataset 3: 100 Beta functions with Temperature and Age from 10 randomly sampled thermal gradients and 10 randomly sampled burial rate
 
 ## Discussion:
 
-Through this experiment, we can see that the DNN model from training dataset 1 and 2 always under-predict the target Beta function. No matter how many epochs we train the DNN model using dataset 1 and 2, the DNN model can only predict the testing data well but not able to predict a new input data with a different thermal gradient or burial rate. This means that the DNN model is not generalized enough, due to the training dataset does not contain enough variance to cover the feature space. 
+Through this experiment, we can see that the DNN model from training dataset 1 and 2 always under-predict the target Beta function. No matter how many epochs we train the DNN model using dataset 1 and 2, the DNN model can only predict the testing data well but not able to predict a new input dataset with a different thermal gradient or burial rate. This means that the DNN model is not generalized enough, due to the training dataset does not contain enough feature variance. 
 
-After training with dataset 3, we can see that the DNN model is capable of predicting Beta functions for the new input data. Now the DNN model is well generalized to make predictions, and no longer under-predicting.
+However, after training with dataset 3, we can see that the DNN model is capable to predict Beta functions for the new input data. This means that now the DNN model is well generalized to make correct predictions, with no under-prediction.
 
 ## Reference:
 
