@@ -3,6 +3,7 @@
 ## Introduction:
 
 Beta function is a diagenesis function modeled using Arrhenius equation. It represents the diagenesis of smectite rich shale to illite rich shale as a function of depth with elevated burial age and temperature. As described in Dutta et al., (2022), chapter 3.4, Chemical Diagenesis as a Geopressure Mechanism, Beta function is a function of burial rate and temperature gradient as shown in the picture below.
+
 ![image](https://github.com/user-attachments/assets/53517f01-49eb-41a4-b470-d714f6d9a922)
 
 ## Deep Neural Network:
