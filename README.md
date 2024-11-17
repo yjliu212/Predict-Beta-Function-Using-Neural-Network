@@ -62,7 +62,7 @@ Here are the heatmap and pairplot of the training dataset 3:
 
 ![image](https://github.com/user-attachments/assets/e7575fec-c62f-4fe8-a85d-c2e575176840)
 
-> Intrested reader can generate heatmap and pairplot using training data set 1 and 2 and see the difference.
+> Intrested reader can generate heatmap and pairplot using training dataset 1 and 2 and see the difference.
 
 ## Discussion:
 
