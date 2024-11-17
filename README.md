@@ -7,7 +7,7 @@ Beta function is a diagenesis function modeled using Arrhenius equation. It repr
 
 ## Deep Neural Network:
 
-Here, in this Notebook, we will use Deep Neural Network (DNN) to model the Beta function.
+In this Notebook, we will use Deep Neural Network (DNN) to model the Beta function.
 
 The training datasets contains three features: Depth_BML (depth below mud line), Temperature, Age, and the calculated Beta is the target.
 
