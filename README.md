@@ -31,10 +31,6 @@ We have three senarios of training datasets:
 ## Results:
 
 **Results using training dataset 1:**
-![image](https://github.com/user-attachments/assets/d1885994-2e0f-4d9d-ae1f-564913cb3391)
-
-Correlation Heatmap of three input features and target Beta
-
 ![image](https://github.com/user-attachments/assets/7063f062-0a49-402d-b0f7-debb78ee0e96)
 
 Training result show good match based on 30% of the training dataset
