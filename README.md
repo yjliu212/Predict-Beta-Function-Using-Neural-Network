@@ -30,7 +30,7 @@ We have three senarios of training datasets:
 
 ## Results:
 
-**Results using training dataset 1:**
+* **Results using training dataset 1:**
 
 ![image](https://github.com/user-attachments/assets/7063f062-0a49-402d-b0f7-debb78ee0e96)
 
@@ -40,7 +40,7 @@ Training result show good match based on 30% of the training dataset
 
 But the trained DNN model fails to predict a new dataset using a different thermal gradient
 
-**Results using training dataset 2:**
+* **Results using training dataset 2:**
 
 ![image](https://github.com/user-attachments/assets/7fba88e9-c955-4506-bac3-61b10f6b9255)
 
@@ -50,7 +50,7 @@ Now the DNN model is able to predict the change due to different thermal gradien
 
 But it still fails to make correct prediction for a new dataset with a different burial rate
   
-**Results using training dataset 3:**
+* **Results using training dataset 3:**
 
 ![image](https://github.com/user-attachments/assets/3fd08d6c-e5dc-45c2-9380-8eff03865051)
 
