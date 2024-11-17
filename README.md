@@ -11,6 +11,8 @@ In this Notebook, we will use Deep Neural Network (DNN) to model the Beta functi
 
 The training datasets contains three features: Depth_BML (depth below mud line), Temperature, Age, and the calculated Beta is the target.
 
+The dataset is splited into 70% as training part and 30% as testing part.
+
 <img width="319" alt="image" src="https://github.com/user-attachments/assets/7041b3ce-1092-4b74-ba37-e48d85f7acc9">
 
 ## Training Datasets:
