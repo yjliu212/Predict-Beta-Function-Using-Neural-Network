@@ -54,7 +54,7 @@ But it still fails to make correct prediction for a new dataset with a different
 
 ![image](https://github.com/user-attachments/assets/3fd08d6c-e5dc-45c2-9380-8eff03865051)
 
-Only after training with dataset 3, it achieved a good prediction in the DNN model
+Only after training with dataset 3, the DNN model achieved good prediction in new data with different thermal gradient and burial rate.
 
 Here are the heatmap and pairplot of the training dataset 3:
 
