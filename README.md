@@ -68,7 +68,7 @@ Here are the heatmap and pairplot of the training dataset 3:
 
 Through this experiment, we can see that the DNN model from training dataset 1 and 2 always under-predict the target Beta function. No matter how many epochs we train the DNN model using dataset 1 and 2, the DNN model can only predict the testing data well but not able to predict a new input dataset with a different thermal gradient or burial rate. This means that the DNN model is not generalized enough, due to the training dataset does not contain enough feature variance. 
 
-However, after training with dataset 3, we can see that the DNN model is capable to predict Beta functions for the new input data. This means that now the DNN model is well generalized to make correct predictions, with no under-prediction.
+However, after training with dataset 3, we can see that the DNN model is capable to predict Beta functions for the new input data. This means that now the DNN model is well generalized to make correct predictions, with no under-prediction. The heatmap and pairplot above show decent feature variance.
 
 ## Reference:
 
